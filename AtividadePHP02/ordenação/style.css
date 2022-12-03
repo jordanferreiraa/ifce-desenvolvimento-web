@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+table {
+  background-color: rgb(118, 179, 153);
+}
+td {
+  padding: 10px;
+}
+.botao {
+  text-align: center;
+}
