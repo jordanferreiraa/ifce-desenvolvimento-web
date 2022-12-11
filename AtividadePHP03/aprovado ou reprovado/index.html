@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Q academico</title>
+</head>
+<body>
+   <table border="2">
+    <form action="script.php" method="post">
+      <tr>
+        <th colspan="2"><h1>Aprovado ou Reprovado</h1></th>
+      </tr>
+      <tr>
+        <td><h2>Digite seu nome:</h2></td>
+        <td><input type="text" name="nome"></td>
+      </tr>
+      <tr>
+        <td><h2>Digite o nome da disciplina:</h2></td>
+        <td><input type="text" name="disciplina"></td>
+      </tr>
+      <tr>
+        <td><h2>Digite a carga horária da disciplina:</h2></td>
+        <td>
+          <select name="carga" id="">
+              <option value=""> </option>
+              <option value="40">40</option>
+              <option value="80">80</option>
+              <option value="120">120</option>
+          </select>
+      </td>
+      </tr>
+      <tr>
+        <td><h2>Digite a primeira nota:</h2></td>
+        <td><input type="number" name="n1"></td>
+      </tr>
+      <tr>
+        <td><h2>Digite a segunda nota:</h2></td>
+        <td><input type="number" name="n2"></td>
+      </tr>
+      <tr>
+        <td><h2>Digite a terceira nota:</h2></td>
+        <td><input type="number" name="n3"></td>
+      </tr>
+      <tr>
+        <td><h2>Digite a quantidade de faltas:</h2></td>
+        <td><input type="number" name="faltas"></td>
+      </tr>
+      <tr class="botao">
+        <td><input type="reset" value="Limpar"></td>
+        <td><input type="submit" value="Enviar"></td>
+      </tr>
+    </form>
+   </table>
+</body>
+</html>

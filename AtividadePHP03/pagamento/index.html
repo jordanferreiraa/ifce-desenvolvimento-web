@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagamento</title>
+</head>
+<body>
+    <table border="2">
+        <form action="script.php" method="post">
+            <tr>
+                <th colspan="2"><h1>Pagamento</h1></th>
+            </tr>
+            <tr>
+                <td><h2>Digite o valor de etiqueta:</h2></td>
+                <td><input type="number" name="valor"></td>
+            </tr>
+            <tr>
+                <td><h2>Como deseja efetuar o pagamento:</h2></td>
+                <td>
+                    <select name="formaPagamento" id="">
+                        <option value=""> </option>
+                        <option value="0">Dinheiro ou Cheque</option>
+                        <option value="1">À vista no cartão</option>
+                        <option value="2">Em duas vezes</option>
+                        <option value="3">Em mais de duas vezes</option>
+                    </select>
+                </td>
+            </tr>         
+            <tr class="botao"> 
+               <td><input type="reset" value="Limpar"></td>
+               <td><input type="submit" value="Enviar"></td>
+            </tr>
+    
+        </form>
+    </table>
+</body>
+</html>
