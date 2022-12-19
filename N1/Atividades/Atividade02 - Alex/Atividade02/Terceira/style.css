@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    height: 200px;
+    width: 600px;
+    background-color: antiquewhite;
+    padding: 5px;
+    color: red;
+}
+
+caption {
+    margin: 15px;
+}
+
+.btn {
+    text-align: center;
+    padding: 10px;
+}
